@@ -1,0 +1,39 @@
+main {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+margin: 0,15px,0,0;
+}
+h1 {
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+p {
+  text-align: center;
+  color:  hsl(220, 15%, 55%);
+}
+.card {
+  background-color:  hsl(0, 0%, 100%);
+  display: flex;
+  margin: 100px;
+  padding: 30px;
+  border-radius: 25px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#code {
+  border-radius: 10px;
+  width : 105%;
+
+}
+.attribution { font-size: 11px; text-align: center;
+margin-top: 10px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.attr:hover{ color: purple;}
